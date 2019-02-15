@@ -8,9 +8,9 @@ This package makes it easy to send notifications using Unifonic with Laravel 5.5
 
 The Unifonic channel makes it possible to send out Laravel notifications as SMS
 <p align="center">
-<a href="https://packagist.org/packages/liliom/laravel-unifonic"><img src="https://poser.pugx.org/liliom/laravel-unifonic/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/liliom/laravel-unifonic"><img src="https://poser.pugx.org/liliom/laravel-unifonic/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/liliom/laravel-unifonic"><img src="https://poser.pugx.org/liliom/laravel-unifonic/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/license.svg" alt="License"></a>
 </p>
 
 
@@ -130,7 +130,7 @@ Notification::route('unifonic', 'xxxxx')
                     new \App\Notifications\InvoicePaid('Laravel notifications are awesome!')
                  );
                  // where xxxxx is the phone number you want to sent to,
-                  i.e: 1xxxxxxx - NO NEED for _00_ or _+_ 
+                 // i.e: 1xxxxxxx - NO NEED for _00_ or _+_ 
 ````
 
 
