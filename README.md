@@ -3,10 +3,9 @@
 </p>
 
 
-# Unifonic notification channel for Laravel 5.6+
-This package makes it easy to send notifications using Unifonic with Laravel 5.5+
-
+# Unifonic notification channel for Laravel 5
 The Unifonic channel makes it possible to send out Laravel notifications as SMS
+
 <p align="center">
 <a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/v/stable.svg" alt="Latest Stable Version"></a>
