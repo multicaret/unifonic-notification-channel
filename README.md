@@ -25,18 +25,18 @@ The service provider gets loaded automatically.
 
 ### Setting up the Unifonic service
 
-Hit to [Dashboard](https://software.unifonic.com/en/dashboard) to create a new REST app to use this channel. Within in this app, you will find the `APP SID`. Place it inside your `.env` file. To load it, add this to your `config/services.php` file:
+Hit to [Dashboard](https://software.unifonic.com/en/dashboard) to create a new REST app to use this channel. Within in this app, you will find the *App ID*. Place it inside your `.env` file. To load it, add this to your `config/services.php` file:
 
 ```php
 ...
 'unifonic' => [
-    'app_id' => env('UNIFONIC_APP_SID'),
+    'app_id' => env('UNIFONIC_APP_ID'),
     'sender_id' => env('UNIFONIC_SENDER_ID') //optional
 ]
 ...
 ```
 
-This will load the Unifonic app data from the `.env` file. Make sure to use the same keys you have used there like `UNIFONIC_APP_SID`.
+This will load the Unifonic app data from the `.env` file. Make sure to use the same keys you have used there like `UNIFONIC_APP_ID`.
 
 ## Usage
 
