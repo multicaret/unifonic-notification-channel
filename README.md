@@ -1,15 +1,15 @@
 <p align="center">
-<img src="http://unifonic.com/wp-content/uploads/2016/08/logo-1.png">
+<img src="http://www.unifonic.com/wp-content/themes/unifonic/images/logo.png">
 </p>
 
 
-# Unifonic notification channel for Laravel 5
+# Unifonic notification channel for Laravel 7.x
 The Unifonic channel makes it possible to send out Laravel notifications as SMS
 
 <p align="center">
-<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/liliom/unifonic-notification-channel"><img src="https://poser.pugx.org/liliom/unifonic-notification-channel/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/multicaret/unifonic-notification-channel"><img src="https://poser.pugx.org/multicaret/unifonic-notification-channel/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/multicaret/unifonic-notification-channel"><img src="https://poser.pugx.org/multicaret/unifonic-notification-channel/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/multicaret/unifonic-notification-channel"><img src="https://poser.pugx.org/multicaret/unifonic-notification-channel/license.svg" alt="License"></a>
 </p>
 
 
@@ -18,7 +18,7 @@ The Unifonic channel makes it possible to send out Laravel notifications as SMS
 You can install this package via composer:
 
 ``` bash
-composer require liliom/unifonic-notification-channel
+composer require multicaret/unifonic-notification-channel
 ```
 
 The service provider gets loaded automatically.
@@ -49,7 +49,7 @@ To use this package, you need to create a notification class, like `InvoicePaid`
 namespace App\Notifications;
 
 use Illuminate\Notifications\Notification;
-use Liliom\Notifications\Messages\UnifonicMessage;
+use Multicaret\Notifications\Messages\UnifonicMessage;
 
 class InvoicePaid extends Notification
 {

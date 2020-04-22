@@ -1,5 +1,5 @@
 {
-  "name": "liliom/unifonic-notification-channel",
+  "name": "multicaret/unifonic-notification-channel",
   "description": "Unifonic Notification Channel for laravel.",
   "keywords": [
     "laravel",
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": "^7.1.3",
-    "liliom/laravel-unifonic": "^1.0"
+    "multicaret/laravel-unifonic": "^1.0"
   },
   "require-dev": {
     "illuminate/notifications": "~5.7",
@@ -24,12 +24,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Liliom\\Notifications\\": "src/"
+      "Multicaret\\Notifications\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Liliom\\Tests\\Notifications\\": "tests/"
+      "Multicaret\\Tests\\Notifications\\": "tests/"
     }
   },
   "config": {
@@ -41,7 +41,7 @@
     },
     "laravel": {
       "providers": [
-        "Liliom\\Notifications\\UnifonicChannelServiceProvider"
+        "Multicaret\\Notifications\\UnifonicChannelServiceProvider"
       ]
     }
   },

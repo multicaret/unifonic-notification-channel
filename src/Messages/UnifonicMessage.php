@@ -1,6 +1,6 @@
 <?php
 
-namespace Liliom\Notifications\Messages;
+namespace Multicaret\Notifications\Messages;
 
 class UnifonicMessage
 {

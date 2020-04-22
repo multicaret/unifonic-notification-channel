@@ -1,9 +1,9 @@
 <?php
 
-namespace Liliom\Notifications;
+namespace Multicaret\Notifications;
 
 use Illuminate\Support\ServiceProvider;
-use Liliom\Unifonic\UnifonicManager;
+use Multicaret\Unifonic\UnifonicManager;
 
 class UnifonicChannelServiceProvider extends ServiceProvider
 {

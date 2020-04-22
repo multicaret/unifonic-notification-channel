@@ -1,11 +1,11 @@
 <?php
 
-namespace Liliom\Notifications\Channels;
+namespace Multicaret\Notifications\Channels;
 
 use Illuminate\Notifications\Notification;
-use Liliom\Notifications\Messages\UnifonicMessage;
-use Liliom\Unifonic\UnifonicClient;
-use Liliom\Unifonic\UnifonicManager;
+use Multicaret\Notifications\Messages\UnifonicMessage;
+use Multicaret\Unifonic\UnifonicClient;
+use Multicaret\Unifonic\UnifonicManager;
 
 class UnifonicSmsChannel
 {
