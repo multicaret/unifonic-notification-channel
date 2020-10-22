@@ -1,3 +1,6 @@
+## v1.0.3
+* Updated ReadMe & other minor updates
+ 
 ## v1.0.2
 * Change in identifier name, company name
 
