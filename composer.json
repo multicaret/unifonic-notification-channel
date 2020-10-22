@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": "^7.1.3",
-    "multicaret/laravel-unifonic": "^1.0"
+    "multicaret/laravel-unifonic": "^2.0"
   },
   "require-dev": {
     "illuminate/notifications": "~5.7",

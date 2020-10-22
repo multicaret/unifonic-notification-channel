@@ -1,3 +1,6 @@
+## v2.0.0
+* Updated Dependency of Laravel Unifonic v2 to reflect the new changes of the API. 
+
 ## v1.0.3
 * Updated ReadMe & other minor updates
  
