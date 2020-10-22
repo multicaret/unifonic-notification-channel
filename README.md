@@ -1,9 +1,9 @@
 <p align="center">
-<img src="http://www.unifonic.com/wp-content/themes/unifonic/images/logo.png">
+<img src="http://cdn.multicaret.com/packages/assets/img/unifonic-logo.png">
 </p>
 
 
-# Unifonic notification channel for Laravel 7.x
+# Unifonic notification channel for Laravel 8.x +
 The Unifonic channel makes it possible to send out Laravel notifications as SMS
 
 <p align="center">
@@ -25,18 +25,8 @@ The service provider gets loaded automatically.
 
 ### Setting up the Unifonic service
 
-Hit to [Dashboard](https://software.unifonic.com/en/dashboard) to create a new REST app to use this channel. Within in this app, you will find the *App ID*. Place it inside your `.env` file. To load it, add this to your `config/services.php` file:
+Check out the configuration of [Laravel Unifonic Library]()
 
-```php
-...
-'unifonic' => [
-    'app_id' => env('UNIFONIC_APP_ID'),
-    'sender_id' => env('UNIFONIC_SENDER_ID') //optional
-]
-...
-```
-
-This will load the Unifonic app data from the `.env` file. Make sure to use the same keys you have used there like `UNIFONIC_APP_ID`.
 
 ## Usage
 
