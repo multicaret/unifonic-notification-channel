@@ -1,3 +1,6 @@
+## v3.0.0
+* use higher version of php and dependencies updated accordingly. 
+
 ## v2.0.0
 * Updated Dependency of Laravel Unifonic v2 to reflect the new changes of the API. 
 
